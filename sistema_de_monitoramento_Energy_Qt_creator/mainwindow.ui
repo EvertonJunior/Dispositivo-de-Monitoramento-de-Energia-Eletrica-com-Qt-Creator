@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>533</width>
+    <height>347</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>110</y>
+      <width>431</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="0">
+        <widget class="QLabel" name="eletrodomestico">
+         <property name="font">
+          <font>
+           <family>Arial Black</family>
+           <pointsize>9</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+           <underline>false</underline>
+          </font>
+         </property>
+         <property name="layoutDirection">
+          <enum>Qt::LeftToRight</enum>
+         </property>
+         <property name="text">
+          <string>Escolha seu Eletrodoméstico:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QComboBox" name="comboBox_Eletro">
+         <property name="font">
+          <font>
+           <family>Arial Black</family>
+           <pointsize>9</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <item>
+          <property name="text">
+           <string>Ferro Eletrico</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Espremedor de Frutas</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Aspirador de Po</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Luminaria</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Ferro de Solda</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Forno Microondas</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Fogão Elétrico 2 Bocas</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Fogão Elétrico 4 Bocas</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Ventilador</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Geladeira Simples</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Geladeira Duplex</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Secador de Cabelo</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Prancha de Cabelo</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Maquina de Lavar Roupa</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Maquina de Lavar Louça</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Maquina de Costura</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Condicionador de Ar</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Cortador de Grama</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_Enviar">
+       <property name="font">
+        <font>
+         <family>Arial Black</family>
+         <pointsize>9</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Enviar</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>533</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
